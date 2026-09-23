@@ -1,5 +1,6 @@
 {
   "version": 2,
   "installCommand": "cd ciclopyc-main && npm install",
-  "buildCommand": "cd ciclopyc-main && npm run build"
+  "buildCommand": "cd ciclopyc-main && npm run build",
+  "outputDirectory": "ciclopyc-main/.vercel/output"
 }
