@@ -2,8 +2,9 @@
   "name": "ciclopyc-workspace",
   "private": true,
   "scripts": {
+    "postinstall": "npm install --prefix ciclopyc-main",
     "dev": "npm --prefix ciclopyc-main run dev",
-    "build": "npm --prefix ciclopyc-main run build",
+    "build": "npm install --prefix ciclopyc-main && npm --prefix ciclopyc-main run build",
     "start": "node ciclopyc-main/.output/server/index.mjs",
     "lint": "npm --prefix ciclopyc-main run lint"
   }
