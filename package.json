@@ -1,0 +1,10 @@
+{
+  "name": "ciclopyc-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ciclopyc-main run dev",
+    "build": "npm --prefix ciclopyc-main run build",
+    "start": "node ciclopyc-main/.output/server/index.mjs",
+    "lint": "npm --prefix ciclopyc-main run lint"
+  }
+}

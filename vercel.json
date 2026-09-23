@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "installCommand": "cd ciclopyc-main && npm install",
+  "buildCommand": "cd ciclopyc-main && npm run build"
+}
